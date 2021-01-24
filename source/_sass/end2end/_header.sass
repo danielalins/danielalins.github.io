@@ -15,9 +15,6 @@
     padding: $base-spacing 0
     min-height: 35px
 
-  .logo, a
-    text-transform: lowercase
-
   .navbar
     float: right
 
@@ -34,9 +31,10 @@
   padding: 0
   float: left
   font-weight: $font-weight-normal
-  font-size: rem(20)
-  +position(fixed, $base-spacing null null $base-spacing)
   z-index: 100
+
+  +media($desktop)
+    +position(fixed, $base-spacing null null $base-spacing)
 
   +media($tablet-small)
     padding: 5px 0

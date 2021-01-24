@@ -10,6 +10,7 @@ comments: true
 
 incremental: true
 live_reload: true
+host: 0.0.0.0
 
 source: source
 destination: _site
@@ -18,17 +19,17 @@ sass:
   style: compressed # expanded
 
 # SEO settings
-title: mvieira
+title: Psico Daniela Lins
 description: "Here you can find some personal information, resume and blog from Matheus Costa Vieira"
 keywords: "Jekyll, personal information, resume, Matheus, Costa, Vieira, Matheus Costa Vieira, blog"
-url: http://matheus-vieira.github.io
+url: http://daniplins.github.io
 baseurl: ""
 
 google_analytics: UA-174941014-1
 site.google_analytics_container: GTM-TWNMZ5Q
-repo: https://github.com/matheus-vieira/matheus-vieira.github.io
-disqus_shortname: "matheuscostavieira"
-disqus_site_shortname: "matheuscostavieira"
+repo: https://github.com/daniplins/daniplins.github.io
+disqus_shortname: ""
+disqus_site_shortname: ""
 
 # Compress
 compress_html:
@@ -43,21 +44,21 @@ compress_html:
 
 # Author settings
 author:
-  name: Matheus Costa Vieira
-  job: Software Engineer
-  bio: "I love God, my wife, my son and my little daughter (an angel) and then I love to create programs!"
+  name: Daniela Priscila Lins
+  job: Psicóloga Comportamental
+  bio: "Psicóloga com foco em crianças e adolescentes em idade escolar."
   thumb: /images/author.png
-  email: matheus.costa.vieira@gmail.com
-  url: http://matheus-vieira.github.io
-  github: https://github.com/matheus-vieira
-  twitter: https://twitter.com/macostavieira
-  facebook: https://facebook.com/macovieira
-  linkedin: https://linkedin.com/in/macostavieira
-  gplus: https://plus.google.com/+MatheusCostaVieira
-  instagram: https://instagram.com/matheuscostavieira
-  whatsapp: https://api.whatsapp.com/send?phone=5541988024599&text=E ae!
-  phone: "5541988024599"
-  cellphone: "+55 41 9 88024599"
+  logo: /images/logo.png
+  email: daniplins@gmail.com
+  url: http://daniplins.github.io
+  github: https://github.com/daniplins
+  twitter: https://twitter.com/daniplins
+  facebook: https://facebook.com/psico.danielalins
+  linkedin: https://linkedin.com/in/daniela-priscila-lins-095491204
+  instagram: https://instagram.com/psico.danielalins
+  whatsapp: https://api.whatsapp.com/send?phone=5541987237281&text=Podemos conversar?
+  phone: "5541987237281"
+  cellphone: "+55 41 9 87237281"
 
 max_experiences: 4
 
@@ -81,9 +82,9 @@ messages:
         skills-languages: "Linguagens"
         skills-framework: "Frameworks"
         skills-others: "Outras"
-      goal: "Criar novos e melhores conceitos usando padrões de design e melhores práticas para o desenvolvimento de aplicativos.
-<br /> Fazendo uso de testes automatizados para garantir a qualidade do sistema.
-<br /> Tendo em mente a resolução do problema com a melhor experiência para o usuário."
+      goal: "Criar novos e melhores conceitos usando padrões de design e melhores práticas para o desenvolvimento de aplicativos.<br />
+       Fazendo uso de testes automatizados para garantir a qualidade do sistema.<br />
+       Tendo em mente a resolução do problema com a melhor experiência para o usuário."
   en-us:
     page-title: Resume
     print-alert: "Optionally remove header in print options"
@@ -103,22 +104,16 @@ messages:
         skills-languages: "Languages"
         skills-framework: "Frameworks"
         skills-others: "Others"
-      goal: "Create new and better concepts using design patterns and best practices for the development of applications.
-<br /> Making use of automated tests to ensure the system quality.
-<br /> Keeping on mind the problem resolution with the best experience for the user."
+      goal: "Create new and better concepts using design patterns and best practices for the development of applications.<br />
+       Making use of automated tests to ensure the system quality.<br />
+       Keeping on mind the problem resolution with the best experience for the user."
 
 # navbar pages
 navbar:
-  - slug: about
-    title: About
-  - slug: resume
-    title: Resume
-  - slug: blog
-    title: Blog
-  - slug: courses
-    title: Courses
-  - slug: contact
-    title: Contact
+  - slug: sobre
+    title: Sobre
+  - slug: contato
+    title: Contato
 
 collections:
  - graduations

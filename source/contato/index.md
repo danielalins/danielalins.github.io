@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /contact/
+permalink: /contato/
 ---
 
-# Leave a message
+## Mande a sua mensagem
 
 {% include contact/form.html %}
